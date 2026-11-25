@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    container_name: cotactic_connect_app
+    ports:
+      - "8046:80"
+    restart: unless-stopped
