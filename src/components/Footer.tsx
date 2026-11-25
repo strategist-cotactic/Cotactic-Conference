@@ -29,7 +29,7 @@ export function Footer() {
           </div>
         </div>
         <div className="footer-bottom flex flex-wrap items-center justify-between gap-6">
-          <span className="wordmark">COTACTIC</span>
+          <img className="wordmark wordmark--footer" src="/images/cotactic-logo.png" alt="Cotactic" width={1185} height={263} />
           <span lang="en">10 years of growing together.</span>
           <a href="#top" className="m-link m-link--bare">กลับสู่ด้านบน</a>
         </div>

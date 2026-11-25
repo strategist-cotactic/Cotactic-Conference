@@ -60,9 +60,10 @@ em { @apply font-normal; }
 .skip-link { @apply absolute; left: var(--gut); top: 10px; padding: 10px 20px; background: var(--ink); color: var(--bg); clip-path: inset(50%); width: 1px; height: 1px; }
 .skip-link:focus { clip-path: none; width: auto; height: auto; z-index: 20; }
 
-/* Text wordmark is intentionally temporary pending the client's approved logo. */
 .nav { height: var(--nav); position: fixed; inset: 0 0 auto; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--line); }
-.wordmark { font-size: var(--type-brand); line-height: 1; @apply font-medium; letter-spacing: -.055em; color: var(--color-navy); }
+.wordmark { display: block; line-height: 0; }
+.wordmark img, img.wordmark { display: block; height: clamp(30px, 2.6vw, 38px); width: auto; }
+img.wordmark--footer { height: clamp(28px, 2.2vw, 34px); }
 
 /* Editorial invitation: the supplied photograph and event name share the first screen. */
 .hero { min-height: 900px; min-height: max(800px, 100svh); padding-block: calc(var(--nav) + 56px) 64px; }
