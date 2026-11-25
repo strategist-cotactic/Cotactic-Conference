@@ -9,7 +9,7 @@ export function Agenda() {
           <p className="eyebrow">กำหนดการ</p>
           <h2 id="agenda-title" className="section-title" lang="en">An afternoon<br /><em>to connect<br />and celebrate.</em></h2>
           <p className="agenda-description">เติมมุมมองใหม่ให้แบรนด์</p>
-          <p className="agenda-date" lang="en"><time dateTime={event.date}>{event.dateEnglish}</time><br />13:00–17:00 · {event.venueShort}</p>
+          <p className="agenda-date" lang="en"><time dateTime={event.date}>{event.dateEnglish}</time><br />13:00–17:00 · {event.venue}</p>
         </div>
         <ol className="agenda-list">
           {agenda.map((item) => (

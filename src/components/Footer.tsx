@@ -6,7 +6,7 @@ export function Footer() {
       <div className="wrap">
         <div className="footer-invitation">
           <div>
-            <p className="eyebrow" lang="en">With appreciation, from all of us.</p>
+            <p className="eyebrow" lang="en">With appreciation from all of us.</p>
             <h2 className="section-title" lang="en">Here’s to <em>what’s next.</em></h2>
             <p>ขอบคุณที่เป็นส่วนหนึ่งของ 10 ปีที่ผ่านมา<br />และหวังว่าจะได้ฉลองก้าวต่อไปด้วยกัน</p>
           </div>
@@ -29,7 +29,7 @@ export function Footer() {
           </div>
         </div>
         <div className="footer-bottom flex flex-wrap items-center justify-between gap-6">
-          <img className="wordmark wordmark--footer" src="/images/cotactic-logo.png" alt="Cotactic" width={1185} height={263} />
+          <img className="wordmark wordmark--footer" src="/images/cotactic-logo.png" alt="COTACTIC" width={1185} height={263} />
           <span lang="en">10 years of growing together.</span>
           <a href="#top" className="m-link m-link--bare">กลับสู่ด้านบน</a>
         </div>

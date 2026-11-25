@@ -65,7 +65,7 @@
 
 - Line Height: Hero 1.08, H2 1.1, หัวข้อย่อย 1.25, เนื้อหา 1.85 และข้อมูลประกอบ 1.6
 - เปลี่ยน Responsive Type ที่ Tokens ใน Media Queries เท่านั้น ไม่เขียนทับขนาดราย Component
-- เครื่องหมาย `&` ในหัวข้อ Display ใช้รูปแบบ Roman ปกติ แม้คำอื่นเป็น Italic ผ่าน Component `DisplayText` เพื่อให้ Keynote และ Thank You & Champagne Toast ใช้รูปตัวอักษรเดียวกัน
+- เครื่องหมาย `&` ในหัวข้อ Display ใช้รูปแบบ Roman ปกติ แม้คำอื่นเป็น Italic ผ่าน Component `DisplayText` เพื่อให้ Keynote และ Networking & Champagne Toast ใช้รูปตัวอักษรเดียวกัน
 
 ## Layout และจังหวะการอ่าน
 

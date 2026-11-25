@@ -6,7 +6,7 @@ export function Invitation() {
     <section id="invitation" className="invitation-section" aria-labelledby="invitation-title">
       <div className="wrap invitation-layout">
         <div className="invitation-story">
-          <p className="eyebrow" lang="en">A little thank you. A new beginning.</p>
+          <p className="eyebrow" lang="en">A little thank-you. A new beginning.</p>
           <h2 id="invitation-title" className="section-title" lang="en">
             10 years of<br /><em>growing together.</em>
           </h2>

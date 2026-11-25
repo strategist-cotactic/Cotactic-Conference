@@ -19,8 +19,8 @@ export function Hero() {
           <p className="hero-invitation">{event.invitation}</p>
           <ButtonLink href="#invitation" variant="secondary">ดูรายละเอียดงาน</ButtonLink>
           <div className="hero-facts">
-            <time dateTime={event.date} lang="en">30 NOVEMBER 2026</time>
-            <span lang="en">{event.venue.toUpperCase()}</span>
+            <time dateTime={event.date} lang="en">{event.dateEnglish}</time>
+            <span lang="en">{event.venue}</span>
           </div>
         </div>
         <div className="hero-visual">
