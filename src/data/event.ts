@@ -45,7 +45,7 @@ export const agenda = [
   },
   {
     start: "13:55", end: "14:55", title: "Marketing & AI Trends for 2027",
-    description: "Keynote อัปเดตเทรนด์การตลาดและ AI เพื่อเตรียมแบรนด์ให้พร้อมสำหรับปี 2027",
+    description: "Keynote อัปเดตเทรนด์การตลาดและ AI เพื่อเตรียมแบรนด์ให้พร้อมสำหรับปี 2027 โดย คุณบี-สโรจ เลาหศิริ ผู้เชี่ยวชาญด้านกลยุทธ์การตลาดและการทำ Marketing Transformation แถวหน้าของประเทศไทย",
     highlight: true,
   },
   {
