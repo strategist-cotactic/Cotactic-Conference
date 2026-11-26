@@ -21,7 +21,7 @@ export function Agenda() {
               </div>
               <div>
                 <h3 lang="en" className={item.highlight ? "agenda-highlight" : ""}><DisplayText text={item.title} /></h3>
-                <p>{item.description}</p>
+                <p className="whitespace-pre-line">{item.description}</p>
               </div>
             </li>
           ))}
