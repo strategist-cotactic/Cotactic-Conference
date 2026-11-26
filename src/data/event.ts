@@ -9,7 +9,7 @@ export const event = {
   dateEnglish: "30 November 2026",
   registration: "13:00 น.",
   hours: "13:30–17:00 น.",
-  venue: "Club Siam, Glowfish",
+  venue: "Club Siam, Glowfish The Plaza 11th Floor",
   transit: "BTS สนามกีฬาแห่งชาติ",
   mapUrl: "https://maps.app.goo.gl/BNGWpnz8exXoMCQt8",
   contacts: [
